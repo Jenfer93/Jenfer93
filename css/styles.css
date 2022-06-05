@@ -24,6 +24,10 @@ body{
   font-size: 32px;
 }
 
+header nav img {
+  max-width: 200px;
+}
+
 .about, .contact {
   display: none;
   
@@ -33,7 +37,7 @@ body{
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   padding: 20px;
-  background-color: #cf2cc4;
+  background: linear-gradient(70deg, #cf2cc4, #cf2cc4);
   max-width: 500px;
   position: fixed;
   top: 50vh;
