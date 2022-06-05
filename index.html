@@ -7,6 +7,9 @@
   <meta name="description" content="This is my personal Portfolio. I'm a Front-End developer in training and every day 
   I develop myself in languages as HTML, CSS and JavaScript, in time to come I will learn so much more and extend my knowledge.">
   <title>Jenny Feragen Homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
@@ -24,10 +27,12 @@
     </nav>
   </header>
   <main>
+    <h1>Jenny Feragen <br>Front-End Developer</h1>
+    <!--The header containers ABOUT and CONTACT-->
     <div class="about">
       <div class="close" onclick="closeAbout()"></div>
       <div class="content">
-        <p class="header">About me!</p>
+        <h2 class="header">About me!</h2>
         <p>Hi, I'm Jenny, a 29 year old living in Lillehammer, Norway.</p>
         <p>I'm currently studying to become a Front-End Developer along side a job and having a child</p>
         <p>On the side I work in the hospitality industry and I have a bachelors degree in Marketing</p>
@@ -36,11 +41,41 @@
     <div class="contact">
       <div class="close" onclick="closeContact()"></div>
       <div class="content">
-        <p class="header">Contact me!</p>
+        <h2 class="header">Contact me!</h2>
         <a href="https://www.linkedin.com/in/jenny-marie-feragen-2a9a3a108/" class="cta">LinkedIn</a>
         <a href="https://www.instagram.com/jenny_feragen/" class="cta">Instagram</a>
         <p>Or e-mail me at <email>jenny@feragen.no</email></p>
       </div>
+    </div>
+    <!--End of the header container ABOUT and CONTACT-->
+    <div class="display-container">
+      <a href="https://quiet-entremet-ea073a.netlify.app/" class="card-container">
+        <img src="/images/project-exam-card-overview.png" alt="Wanderlust">
+        <div class="card-content">
+          <h3>Wanderlust</h3>
+          <p>This is my exam project for my first year.
+            This website is made to showcase a blog. 
+          </p> 
+        </div>
+      </a>
+      <a href="https://romantic-easley-74e668.netlify.app/" class="card-container">
+        <img src="/images/community-science-card-overview.png" alt="Community Science Museum">
+        <div class="card-content">
+          <h3>Community Science Museum</h3>
+          <p>This was a school project. 
+            The websites focus is to be informative, while playful enough for the younger audience
+          </p>
+        </div>
+      </a>
+      <a href="https://youthful-franklin-a4c79b.netlify.app/" class="card-container">
+        <img src="/images/rainydays-overview-card-overview.png" alt="RainyDays">  
+        <div class="card-content">
+          <h3>RainyDays</h3>
+          <p>This was our cross course project.
+            The website is made to be simple and easy for the costumer to find and by a jacket.
+          </p>
+        </div>
+      </a>
     </div>
   </main>
   <script src="/js/script.js"></script>

@@ -25,7 +25,7 @@ body{
 }
 
 header nav img {
-  max-width: 200px;
+  max-width: 150px;
 }
 
 .about, .contact {
@@ -37,7 +37,7 @@ header nav img {
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   padding: 20px;
-  background: linear-gradient(70deg, #cf2cc4, #cf2cc4);
+  background: linear-gradient(70deg, #cf2cc4, #7a0072);
   max-width: 500px;
   position: fixed;
   top: 50vh;
@@ -91,4 +91,55 @@ nav{
   flex-direction: row;
   justify-content: space-evenly;
   padding: 20px;
+}
+
+/*main section*/
+
+h1, h2, h3 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h1 {
+  margin: 10px auto;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.display-container {
+  max-width: 900px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px auto;
+}
+
+.card-container {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 400px;
+  height: 400px;
+  margin: 10px;
+  border: 2px solid #13131A;
+  border-radius: 5px;
+  background: linear-gradient(70deg #39396a #13131A);
+}
+
+img {
+  width: 100%;
+}
+
+.card-content {
+  padding: 10px;
+  display: flex; 
+  flex-direction: column;
+}
+
+.card-content h3 {
+  align-self: center;
+  margin: 10px;
 }
