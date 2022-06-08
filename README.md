@@ -10,9 +10,9 @@ While studing I work part-time as the salesmanager at [Nermo hotel](https://nerm
 
 **Languages I've learned this far:** 
 
-- HTML 
-- CSS
-- JavaScript
+- [x] HTML 
+- [x] CSS
+- [x] JavaScript
 
 I also love to design and in most of my design I focus on KISS (keep it simple, stupid). And always keeps the UI and UX in mind when creating applications. 
 If you want to have a look at some of my work you will find my portfolio here: [My portfolio](https://quiet-faun-9d78e7.netlify.app/).:raising_hand:
