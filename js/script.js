@@ -2,7 +2,7 @@ const contactButton = document.querySelector("#contact");
 const aboutButton = document.querySelector("#about");
 const aboutMe = document.querySelector(".about");
 const contactMe = document.querySelector(".contact");
-
+//The code to show the About and Contact me windows
 
 function showAbout() {
   aboutMe.classList.add("open");

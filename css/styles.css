@@ -21,8 +21,9 @@ body{
 }
 
 .header {
-  font-size: 32px;
+  font-size: 42px;
 }
+
 
 header nav img {
   max-width: 150px;
@@ -51,12 +52,18 @@ header nav img {
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2)
 }
 
-.close:hover{
+/*Hover-pointer effect*/
+.close:hover, .cta:hover, .cta:focus,
+.card-container:hover {
   cursor: pointer;
 }
 
 .about.open, .contact.open{
   display: block;
+}
+
+.email, .github-link {
+  text-decoration: underline;
 }
 
 .cta {
@@ -74,14 +81,12 @@ header nav img {
 
 .cta:hover {
   text-decoration: line-through;
-  cursor: pointer;
   border: 2px solid #4588f7;
   border-radius: 5px;
 }
 
 .cta:focus {
   text-decoration: line-through;
-  cursor: pointer;
   border: 2px solid #4588f7;
   border-radius: 5px;
 }
@@ -100,8 +105,27 @@ h1, h2, h3 {
 }
 
 h1 {
-  margin: 10px auto;
+  margin: 20px auto;
   text-align: center;
+}
+
+.intro {
+  margin: 10px auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+.intro p {
+  margin: 10px;
+}
+
+.intro1 {
+  font-size: 24px;
+}
+
+.intro2 {
+  font-weight: 900;
+  text-decoration: underline;
 }
 
 a {
@@ -122,11 +146,12 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 400px;
-  height: 400px;
+  height: 420px;
   margin: 10px;
   border: 2px solid #13131A;
   border-radius: 5px;
   background: linear-gradient(70deg #39396a #13131A);
+  transition: all 0.3s;
 }
 
 img {
@@ -142,4 +167,26 @@ img {
 .card-content h3 {
   align-self: center;
   margin: 10px;
+}
+
+.card-links {
+  display: flex; 
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.card-container:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+/*footer*/
+footer{
+  height: 100px;
+  display: flex; 
+  align-content: center;
+  background-color: #13131A;
+}
+
+footer .cta {
+  align-content: center;
 }
