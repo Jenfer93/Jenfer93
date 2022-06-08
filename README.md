@@ -3,10 +3,12 @@
 So happy to see you here :v:
 
 ### My name is Jenny, and I'm from Norway! 
-I am currently studying to become a Front-End Developer at [Noroff - School of Technology and Digital Media](https://www.noroff.no/). 
-While studing I work part-time as the salesmanager at [Nermo hotell](https://nermohotell.no/). 
+I am currently studying to become a Front-End Developer at
+[Noroff - School of Technology and Digital Media](https://www.noroff.no/). 
 
-Languages I've learned this far: 
+While studing I work part-time as the salesmanager at [Nermo hotel](https://nermohotell.no/) in Øyer. 
+
+**Languages I've learned this far:** 
 
 - HTML 
 - CSS
