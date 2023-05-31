@@ -1,0 +1,20 @@
+/*
+If I'll make the background gradient. 
+@mixin gradient($direction, $list) { 
+  background: -webkit-linear-gradient($direction, $list);
+  background: -moz-linear-gradient($direction, $list);
+  background: -o-linear-gradient($direction, $list);
+  background: linear-gradient($direction, $list);  
+}
+
+$list: --secondary, --dark-secondary;*/
+
+body {
+  margin: var(--spacing-null); 
+}
+
+main {
+  background-color: var(--secondary);
+  margin: var(--spacing-null); 
+  min-height: 100vh;
+}

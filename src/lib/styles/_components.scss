@@ -22,3 +22,24 @@
 	@include icon;
 	font-variation-settings: 'FILL' 0;
 }
+
+//buttons
+@mixin button {
+	color: var(--primary);
+	border: none; 
+	background-color: var(--secondary);
+	display: inline-block;
+	padding: var(--spacing-s);
+	font-size: var(--font-size-m);
+	cursor: pointer;
+}
+
+.button {
+  @include button; 
+}
+
+.myWorkButton {
+	@include button; 
+	border: 2px solid var(--primary);
+	border-radius: var(--border-radius-xs);
+}
