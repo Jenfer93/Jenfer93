@@ -15,4 +15,5 @@ main {
   @include gradient(to bottom right, $list);
   margin: var(--spacing-null); 
   min-height: 100vh;
+  color: var(--primary)
 }
