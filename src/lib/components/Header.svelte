@@ -20,6 +20,10 @@ header, nav, ul {
   margin: 0; 
 }
 
+header {
+  position: sticky;
+}
+
 nav {
   display: flex; 
   justify-content: flex-end;
