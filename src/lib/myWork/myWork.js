@@ -20,7 +20,7 @@ export const myWork = [
     "The project is a LMS system build with SvelteKit, Typescript, Tailwind, Skeleton and some Sass", 
     img: "",
     github: "https://github.com/Fermain/-mollify", 
-    page:""
+    page:"https://github.com/Fermain/-mollify"
   },
   {
     title:"Wanderlust", 

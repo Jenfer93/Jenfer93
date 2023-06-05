@@ -44,12 +44,4 @@ ul {
 li {
   list-style: none;
 }
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
 </style>
