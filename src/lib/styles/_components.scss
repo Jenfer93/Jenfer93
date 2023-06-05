@@ -43,4 +43,10 @@
 	background-color: var(--secondary);
 	border: 2px solid var(--primary);
 	border-radius: var(--border-radius-xs);
+	transition: ease 0.5s;
+}
+
+.myWorkButton:hover{
+	background-color: var(--primary);
+	color: var(--secondary)
 }

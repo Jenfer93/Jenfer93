@@ -18,15 +18,22 @@
 
 header, nav, ul {
   margin: 0; 
+  position: sticky;
+  top: 0;
 }
 
 header {
-  position: sticky;
+  background-color: var(--dark-secondary);
+  height: var(--spacing-xxl);
+  display: flex;
+  margin-bottom: var(--spacing-l);
 }
 
 nav {
   display: flex; 
   justify-content: flex-end;
+  margin: auto;
+  max-width: 1200px;
 }
 
 ul {
@@ -42,5 +49,7 @@ a {
   text-decoration: none;
 }
 
-
+a:hover {
+  text-decoration: underline;
+}
 </style>

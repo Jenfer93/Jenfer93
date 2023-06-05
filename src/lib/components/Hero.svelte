@@ -1,9 +1,9 @@
 
 <div>
   
-<h1>Jenny Feragen</h1>
+<h1>Front End Developer</h1>
 
-<h2>Front End Developer</h2>
+<h2>Jenny Feragen</h2>
 
 </div>
 
