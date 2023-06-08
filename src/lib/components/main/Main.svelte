@@ -3,14 +3,14 @@
 </script>
 
 <div class="content-container">
+  <h3 id="myWork">My work</h3>
   <div class="flex-container"> 
     {#each myWork as card}
       <div class="card">
-      <div class="img-container">
-        <img src={card.img} alt="{card.title} image"/>
+      <div class="img-container" style="background-image: url('{card.img}')">
       </div>
       <div class="text-container">
-        <h3>{card.title}</h3>
+        <h4>{card.title}</h4>
         <p>{card.descrition}</p>
       </div>
       <div class="link-container">
@@ -23,19 +23,36 @@
 </div>
 
 <style lang="scss">
-  .img-container {
-    height: 150px;
-    width: 250px;
+  .content-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
-  img {
-    width: 100%;
+  h3 {
+    text-align: center;
+  }
+
+  .flex-container {
+    display: flex; 
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .img-container {
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .card {
     border: solid 0.5px var(--primary);
-    width: 250px;
-    height: 400px;
+    width: 300px;
+    height: 500px;
     padding: var(--spacing-xs);
     display: flex;
     flex-direction: column;

@@ -3,22 +3,24 @@ import communityImg from "../images/community-science-overview.png";
 import rainydaysImg from "../images/rainydays-overview-card-overview.png";
 import bidonmeImg from "../images/bidonme-overview.png";
 import auctionImg from "../images/actionhouse-overveiw.png";
+import mollifyImg from "../images/mollify.png";
 
 export const myWork = [
   {
     title:"Auction House", 
-    descrition:"A action house made with React, Bootstrap and Sass. Using a Noroff API as backend", 
+    descrition: "This is a JavaScript framework project. "+
+    "A action house made with React, Bootstrap and Sass. Using a Noroff API as backend. "+
+    "Main focus is the KISS method and styling", 
     img: auctionImg,
     github: "https://github.com/Jenfer93/Semester-Project2/blob/main/README.md", 
     page:"https://deft-fairy-0fd79d.netlify.app/"
   },
   {
     title:"Mollify", 
-    descrition:"A team project, where I've made contributions to aspects like the chat window"+
-    "and callouts. This was a test exam where I was one of four lucky chosen ones that"+
-    "was the firsts to start up a big project with one of out tutors."+
+    descrition:"A team project, where I've made contributions to aspects like the chat window "+
+    "and callouts."+
     "The project is a LMS system build with SvelteKit, Typescript, Tailwind, Skeleton and some Sass", 
-    img: "",
+    img: mollifyImg,
     github: "https://github.com/Fermain/-mollify", 
     page:"https://github.com/Fermain/-mollify"
   },
